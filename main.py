@@ -17,6 +17,7 @@ os.environ["PATH"] += os.pathsep + "C:\\ffmpeg\\bin"
 
 load_dotenv()
 TOKEN = os.getenv('BOT_TOKEN')
+print(f"DEBUG: TOKEN = {TOKEN}")
 BRIDGE_URL = "http://localhost:3001/control"
 
 intents = discord.Intents.default()
